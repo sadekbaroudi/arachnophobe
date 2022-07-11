@@ -1,5 +1,4 @@
 Designator,Val,Package,"Mid X","Mid Y",Rotation,Layer
-"H1","MountingHole","fingerpunch-logo",149.559184,-129.383678,0.000000,top
 "J1","Conn_01x02_Female","Connector_THT_1x2_2.54",149.147312,-81.242741,0.000000,top
 "M1","XIAO-RP2040","XIAO-RP2040",140.027314,-89.410742,0.000000,top
 "SW2","SW_Push","Kailh_socket_MX-ChocV1",68.464876,-37.594987,-15.000000,top
@@ -32,4 +31,3 @@ Designator,Val,Package,"Mid X","Mid Y",Rotation,Layer
 "SW36","SW_Push","Kailh_socket_MX-ChocV1",170.778052,-125.002198,35.000000,top
 "SW37","SW_Push","Kailh_socket_MX-ChocV1",188.964587,-114.502198,25.000000,top
 "SW38","SW_Push","Kailh_socket_MX-ChocV1",208.698126,-107.319778,15.000000,top
-"SW41","SW_Push","SKQG-1155865",149.147311,-98.602740,0.000000,top

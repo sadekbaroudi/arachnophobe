@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\sadek\Documents\keyboard-pcbs\razorcrest\pcb\mx-choc\greenthumb.kicad_sch</source>
-    <date>6/12/2022 7:15:47 PM</date>
-    <tool>Eeschema (6.0.5)</tool>
+    <source>C:\Users\sadek\Documents\keyboard-pcbs\arachnophobe\pcb\mx-choc\greenthumb.kicad_sch</source>
+    <date>2022-07-11 00:21:12</date>
+    <tool>Eeschema (6.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -884,7 +884,7 @@
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
     </library>
     <library logical="xiao-rp2040">
-      <uri>C:\Users\sadek\Documents\keyboard-pcbs\razorcrest\pcb\mx-choc/libraries/fingerpunch.pretty/xiao-rp2040.kicad_sym</uri>
+      <uri>C:\Users\sadek\Documents\keyboard-pcbs\arachnophobe\pcb\mx-choc/libraries/fingerpunch.pretty/xiao-rp2040.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
