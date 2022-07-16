@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\sadek\Documents\keyboard-pcbs\arachnophobe\pcb\mx-choc\greenthumb.kicad_sch</source>
-    <date>2022-07-11 00:21:12</date>
+    <date>2022-07-16 11:15:07</date>
     <tool>Eeschema (6.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -483,15 +483,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ae2e9f51-3260-4b87-b717-00da647401fb</tstamps>
     </comp>
-    <comp ref="J1">
-      <value>Conn_01x02_Female</value>
-      <footprint>fingerpunch:Connector_THT_1x2_2.54</footprint>
-      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="greenthumb.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>60a97046-6b57-40f0-b47f-57b153d7286d</tstamps>
-    </comp>
     <comp ref="M1">
       <value>XIAO-RP2040</value>
       <footprint>fingerpunch:XIAO-RP2040</footprint>
@@ -777,34 +768,8 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000060fba977</tstamps>
     </comp>
-    <comp ref="SW41">
-      <value>SW_Push</value>
-      <footprint>random-keyboard-parts:SKQG-1155865</footprint>
-      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
-      <property name="Seeed SKU" value=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="greenthumb.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-0000613137a2</tstamps>
-    </comp>
   </components>
   <libparts>
-    <libpart lib="Connector" part="Conn_01x02_Female">
-      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x02_Female</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Diode" part="1N4148W">
       <description>75V 0.15A Fast Switching Diode, SOD-123</description>
       <docs>https://www.vishay.com/docs/85748/1n4148w.pdf</docs>
@@ -871,9 +836,6 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="Connector">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
-    </library>
     <library logical="Diode">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Diode.kicad_sym</uri>
     </library>
@@ -895,9 +857,7 @@
       <node ref="M1" pin="12" pinfunction="3V3" pintype="power_in"/>
     </net>
     <net code="3" name="GND">
-      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="M1" pin="13" pinfunction="GND" pintype="power_in"/>
-      <node ref="SW41" pin="1" pinfunction="1" pintype="passive"/>
     </net>
     <net code="4" name="Net-(D2-Pad2)">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
@@ -1019,11 +979,7 @@
       <node ref="D38" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW38" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="34" name="RESET">
-      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="SW41" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="36" name="col0">
+    <net code="35" name="col0">
       <node ref="M1" pin="5" pinfunction="D4" pintype="bidirectional"/>
       <node ref="SW11" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW21" pin="2" pinfunction="2" pintype="passive"/>
@@ -1031,7 +987,7 @@
       <node ref="SW36" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW38" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="37" name="col1">
+    <net code="36" name="col1">
       <node ref="M1" pin="6" pinfunction="D5" pintype="bidirectional"/>
       <node ref="SW12" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW18" pin="2" pinfunction="2" pintype="passive"/>
@@ -1039,7 +995,7 @@
       <node ref="SW22" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW28" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="38" name="col2">
+    <net code="37" name="col2">
       <node ref="M1" pin="7" pinfunction="D6" pintype="bidirectional"/>
       <node ref="SW13" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW23" pin="2" pinfunction="2" pintype="passive"/>
@@ -1047,7 +1003,7 @@
       <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW8" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="39" name="col3">
+    <net code="38" name="col3">
       <node ref="M1" pin="10" pinfunction="D9" pintype="bidirectional"/>
       <node ref="SW14" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW19" pin="2" pinfunction="2" pintype="passive"/>
@@ -1055,7 +1011,7 @@
       <node ref="SW33" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW9" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="40" name="col4">
+    <net code="39" name="col4">
       <node ref="M1" pin="9" pinfunction="D8" pintype="bidirectional"/>
       <node ref="SW15" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW20" pin="2" pinfunction="2" pintype="passive"/>
@@ -1063,7 +1019,7 @@
       <node ref="SW34" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW37" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="41" name="col5">
+    <net code="40" name="col5">
       <node ref="M1" pin="8" pinfunction="D7" pintype="bidirectional"/>
       <node ref="SW16" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW17" pin="2" pinfunction="2" pintype="passive"/>
@@ -1071,7 +1027,7 @@
       <node ref="SW27" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW30" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="42" name="row0">
+    <net code="41" name="row0">
       <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
@@ -1080,7 +1036,7 @@
       <node ref="D38" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="M1" pin="1" pinfunction="D0" pintype="bidirectional"/>
     </net>
-    <net code="43" name="row1">
+    <net code="42" name="row1">
       <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
@@ -1089,7 +1045,7 @@
       <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="M1" pin="2" pinfunction="D1" pintype="bidirectional"/>
     </net>
-    <net code="44" name="row2">
+    <net code="43" name="row2">
       <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
@@ -1098,7 +1054,7 @@
       <node ref="D26" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="M1" pin="3" pinfunction="D2" pintype="bidirectional"/>
     </net>
-    <net code="45" name="row3">
+    <net code="44" name="row3">
       <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D29" pin="1" pinfunction="K" pintype="passive"/>
@@ -1107,7 +1063,7 @@
       <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="M1" pin="4" pinfunction="D3" pintype="bidirectional"/>
     </net>
-    <net code="46" name="row4">
+    <net code="45" name="row4">
       <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>

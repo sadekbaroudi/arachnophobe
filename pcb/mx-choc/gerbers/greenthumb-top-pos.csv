@@ -1,5 +1,4 @@
 Designator,Val,Package,"Mid X","Mid Y",Rotation,Layer
-"J1","Conn_01x02_Female","Connector_THT_1x2_2.54",149.147312,-81.242741,0.000000,top
 "M1","XIAO-RP2040","XIAO-RP2040",140.027314,-89.410742,0.000000,top
 "SW2","SW_Push","Kailh_socket_MX-ChocV1",68.464876,-37.594987,-15.000000,top
 "SW3","SW_Push","Kailh_socket_MX-ChocV1",88.111561,-37.682907,-15.000000,top
