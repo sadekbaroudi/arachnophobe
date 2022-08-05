@@ -13,6 +13,10 @@ Discord: sadekbaroudi#1258
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/paypalme/sadekbaroudi)
 
+# Keymap
+
+![arachnophobe-keymap](images/keymap.png)
+
 # Firmware
 
 ## QMK
